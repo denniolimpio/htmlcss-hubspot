@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 /* fine reset */
-
 /* regole generali */
 body {
   background-color: #afebe4;
@@ -27,20 +26,16 @@ header {
 h1 {
   line-height: 50px;
   font-size: 50px;
-font-family: 'Montserrat', sans-serif;}
+  font-family: 'Montserrat', sans-serif;
+}
 a {
   color: #3b5162;
   line-height: 38px;
   text-decoration: none;
 }
-.content {
-  padding: 0 10%;
-
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+ul li {
+  display: inline-block;
+  list-style-type: none;
 }
 header .col {
   width: 50%;
@@ -50,26 +45,31 @@ header .col {
   float: left;
   height: 100%;
 }
-
-ul li {
-  display: inline-block;
-  list-style-type: none;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+.content {
+  padding: 0 10%;
 
-.cta-orang {
+}
+.cta-orang{
   border: 1px solid #fe7759;
   border-radius: 4px;
   background-color: #fe7759;
   color: white;
-
 }
-
+.cta-orang:hover  {
+  background-color: rgba(254,122,89,0.3);
+}
 .freeupgr {
   font-size: 11px;
   display: block;
 }
+/* || HEADER ||  */
 
-/* * HEADER || NAVIGATION BARRA * */
+/* INIZIO NAV BARRA  */
 header .nav-bar{
   width: 100%;
   height: 100px;
@@ -83,16 +83,15 @@ header .nav-bar .content .menu {
 header .nav-bar .content .menu li {
   padding: 30px 15px;
   line-height: 38px;
-
 }
-/* colonna sinistra */
+/* COL SINISTRA */
 header .nav-bar .content .col.lingua{
 }
 .content .col.lingua .menu li:first-child{
   margin-left: 0;
   padding-left: 0px;
 }
-/* colonna destra */
+/* COL DESTRA */
 header .nav-bar .content .col.login {
   text-align: right;
 }
@@ -107,6 +106,9 @@ header .nav-bar .content .col.login {
 .col.login .menu .butt-login a {
   color: #fe7759;
 }
+.col.login .menu .butt-login:hover {
+  background-color: rgba(254,122,89,0.1)
+}
 .col.login .menu .cta-orang {
   padding: 5px 20px;
   margin: 0 20px;
@@ -117,24 +119,20 @@ header .nav-bar .content .col.login {
 .col.login .menu .lent-icn {
   color:#18aac1;
 }
-
-/* **FINE NAVIGATION BARRA** */
-
-/*  INIZIO navigation menu*/
-.head-menu {
+.col.login .menu .lent-icn:hover {
+  font-size: 20px;
 }
+/*  INIZIO NAV MENU*/
 header .nav-menu {
   border-top: 1px solid black;
   background: #ffffff;
   height: 100px;
   width: 100%;
 }
-}
 header .nav-menu .head-menu .col.logo {
 }
 header .nav-menu .head-menu .col.logo img {
-padding-top: 30px;
-}
+padding-top: 30px;}
 .col.list-menu {
   line-height: 38px;
 
@@ -150,7 +148,7 @@ padding-top: 30px;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* NOTE: DA SISTEMARE */
+/* INIZIO TEASER */
 header .teaser{
   margin-top: 50px;
 }
@@ -166,3 +164,4 @@ header .title .teaser-box .menu .cta-orang {
   padding: 15px;
   padding: 15px;
 }
+/* ||FINE HEADER|| */
