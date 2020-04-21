@@ -27,7 +27,7 @@ header {
 h1 {
   line-height: 50px;
   font-size: 50px;
-}
+font-family: 'Montserrat', sans-serif;}
 a {
   color: #3b5162;
   line-height: 38px;
@@ -155,7 +155,7 @@ header .teaser{
   margin-top: 50px;
 }
 header .teaser .title .teaser-box {
-  width: 500px;
+  width: 660px;
 }
 header .title .teaser-box .menu {
 }
