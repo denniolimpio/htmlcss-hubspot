@@ -7,20 +7,30 @@
 /* fine reset */
 
 /* regole generali */
-
+body {
+  background-color: #afebe4;
+}
 header {
-  font-size: 18px;
+  line-height: 30px;
+  font-size: 16px;
   color: #3b5162;
   height: 800px;
   font-family: 'Montserrat', sans-serif;
   background-color: #fff3ee;
   background-image: url(../img/jumbotron.png);
-  background-position: 100% 168%;
+  background-position: 100% 170%;
   background-repeat: no-repeat;
   background-size: 1400px;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+
+
 
 }
-
+h1 {
+  line-height: 50px;
+  font-size: 50px;
+}
 a {
   color: #3b5162;
   line-height: 38px;
@@ -35,10 +45,13 @@ a {
   display: table;
   clear: both;
 }
+header .col {
+  width: 50%;
+
+}
 .col {
   float: left;
   height: 100%;
-  width: 50%;
 }
 
 ul li {
@@ -135,16 +148,17 @@ padding-top: 30px;
   margin-right: 0px;
   padding-right: 0px;
 }
-
+/* NOTE: DA SISTEMARE */
+.teaser {
+  margin-top: 80px;
+}
 .box {
   width: 50%;
+height: 250px;
 }
-
-.provabordo {
-  height: 100px;
-  width: 100%;
-  background-color: #afebe4;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-
+.box .menu.list {
+  display: block;
+}
+.box .menu li {
+  padding: 25px 0px;
 }
