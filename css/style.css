@@ -149,16 +149,17 @@ padding-top: 30px;
   padding-right: 0px;
 }
 /* NOTE: DA SISTEMARE */
-.teaser {
-  margin-top: 80px;
+header .teaser{
+  margin-top: 50px;
 }
-.box {
-  width: 50%;
-height: 250px;
+header .teaser .title .teaser-box {
+  width: 500px;
+  background-color: blue;
 }
-.box .menu.list {
+.teaser-box .menu {
   display: block;
+  background-color: cyan;
 }
-.box .menu li {
+.teaser-box .menu li {
   padding: 25px 0px;
 }
