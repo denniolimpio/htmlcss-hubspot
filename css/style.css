@@ -10,6 +10,9 @@ body {
   background-color: #afebe4;
   font-family: 'Montserrat', sans-serif;
   color: #3b5162;
+  line-height: 30px;
+
+
 
 }
 header {
@@ -174,16 +177,54 @@ header .title .teaser-box .menu .cta-orang {
 }
 /* ||FINE HEADER|| */
  /* || MAIN || */
- #slogan {
-   text-align: center;
-   height: 300px;
+ /* riga uno */
+#widget {
  }
-
- #slogan .slog img {
+#widget .row-one {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+#widget .row-one img {
    padding-top: 40px;
    height: 220px;
  }
- #slogan .slog h2 {
+#widget .row-one h2 {
+   padding: 20px;
    font-size: 30px;
    font-weight: bold;
  }
+
+ /* riga due */
+ #widget .row-two {
+s   height: 100px;
+ }
+.orizzontale {
+  width: 100%;
+  height: 200px;
+  background: darkmagenta;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+.shortwidget {
+  margin-top: 50px;
+}
+.col.marketing {
+  background-color: red;
+  width: 30%;
+  height: 400px; /* NOTE: da cancellare */
+}
+.col.sales {
+  background-color: yellow;
+  width: 30%;
+  margin: 0 5%;
+  height: 400px; /* NOTE: da cancellare */
+
+}
+
+.col.service {
+  background-color: blue;
+  width: 30%;
+  height: 400px; /* NOTE: da cancellare */
+
+}
