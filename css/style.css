@@ -1,0 +1,150 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* fine reset */
+
+/* regole generali */
+
+header {
+  font-size: 18px;
+  color: #3b5162;
+  height: 800px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff3ee;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 168%;
+  background-repeat: no-repeat;
+  background-size: 1400px;
+
+}
+
+a {
+  color: #3b5162;
+  line-height: 38px;
+  text-decoration: none;
+}
+.content {
+  padding: 0 10%;
+
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.cta-orang {
+  border: 1px solid #fe7759;
+  border-radius: 4px;
+  background-color: #fe7759;
+  color: white;
+
+}
+
+/* * HEADER || NAVIGATION BARRA * */
+header .nav-bar{
+  width: 100%;
+  height: 100px;
+  background-color: #f5f8fa;
+}
+header .nav-bar .content .col {
+  width: 50%
+}
+header .nav-bar .content .menu {
+}
+header .nav-bar .content .menu li {
+  padding: 30px 15px;
+  line-height: 38px;
+
+}
+/* colonna sinistra */
+header .nav-bar .content .col.lingua{
+}
+.content .col.lingua .menu li:first-child{
+  margin-left: 0;
+  padding-left: 0px;
+}
+/* colonna destra */
+header .nav-bar .content .col.login {
+  text-align: right;
+}
+.content .col.login .menu li:last-child{
+  margin-right: 0;
+}
+.col.login .menu .butt-login {
+  border: 1px solid #fe7759;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.col.login .menu .butt-login a {
+  color: #fe7759;
+}
+.col.login .menu .cta-orang {
+  padding: 5px 20px;
+  margin: 0 20px;
+}
+.col.login .menu .cta-orang a {
+  color: white;
+}
+.col.login .menu .lent-icn {
+  color:#18aac1;
+}
+
+/* **FINE NAVIGATION BARRA** */
+
+/*  INIZIO navigation menu*/
+.head-menu {
+}
+header .nav-menu {
+  border-top: 1px solid black;
+  background: #ffffff;
+  height: 100px;
+  width: 100%;
+}
+}
+header .nav-menu .head-menu .col.logo {
+}
+header .nav-menu .head-menu .col.logo img {
+padding-top: 30px;
+}
+.col.list-menu {
+  line-height: 38px;
+
+}
+.col.list-menu .menu  {
+  text-align: right;
+
+}
+.col.list-menu .menu li {
+  padding: 30px 5px;
+}
+.col.list-menu .menu li:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.box {
+  width: 50%;
+}
+
+.provabordo {
+  height: 100px;
+  width: 100%;
+  background-color: #afebe4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
