@@ -176,53 +176,62 @@ header .title .teaser-box .menu .cta-orang {
   padding: 15px;
 }
 /* ||FINE HEADER|| */
- /* || MAIN || */
+
+ /* || INIZIO MAIN || */
+
  /* riga uno */
-#widget {
+main #widget {
  }
-#widget .row-one {
+main #widget .row-one {
   text-align: center;
   width: 70%;
   margin: auto;
 }
-#widget .row-one img {
+main #widget .row-one img {
    padding-top: 40px;
    height: 220px;
  }
-#widget .row-one h2 {
+main #widget .row-one h2 {
    padding: 20px;
    font-size: 30px;
    font-weight: bold;
  }
 
  /* riga due */
- #widget .row-two {
-s   height: 100px;
+main #widget .row-two {
+   height: 100px;
  }
-.orizzontale {
-  width: 100%;
+
+main #widget .row-two .book {
+  width: 30%;
   height: 200px;
   background: darkmagenta;
-  border: 1px solid lightgrey;
-  border-radius: 4px;
+
+
 }
-.shortwidget {
+main #widget .row-two .book-text{
+  width: 70%;
+  height:200px;
+  background-color: green;
+}
+
+/* riga tre */
+
+main #widget .row-three {
   margin-top: 50px;
 }
-.col.marketing {
+main #widget .row-three .col.marketing {
   background-color: red;
   width: 30%;
   height: 400px; /* NOTE: da cancellare */
 }
-.col.sales {
+main #widget .row-three .col.sales {
   background-color: yellow;
   width: 30%;
   margin: 0 5%;
   height: 400px; /* NOTE: da cancellare */
-
 }
-
-.col.service {
+main #widget .row-three .col.service {
   background-color: blue;
   width: 30%;
   height: 400px; /* NOTE: da cancellare */
