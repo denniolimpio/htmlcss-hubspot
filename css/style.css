@@ -11,13 +11,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #3b5162;
   line-height: 30px;
+  font-size: 15px;
 
 
 
 }
 header {
   line-height: 30px;
-  font-size: 16px;
+
   height: 800px;
   border-bottom: 3px solid black;
   overflow: hidden;
@@ -32,7 +33,6 @@ header {
 main {
   margin-top: 80px;
   border-top: 3px solid black;
-  height: 1000px; /* NOTE: da cancellare */
   background-color: #f4f9fd;
 }
 h1 {
@@ -72,6 +72,9 @@ header .col {
   background-color: #fe7759;
   color: white;
 }
+main .cita-orang {
+display: block;
+}
 .cta-orang:hover  {
   background-color: rgba(254,122,89,0.3);
 }
@@ -79,6 +82,16 @@ header .col {
   font-size: 11px;
   display: block;
 }
+.check-icn {
+  color: #fe7759;
+}
+.widget-h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.widget-p {} /* NOTE: eventualmente da eliminare */
 /* || HEADER ||  */
 
 /* INIZIO NAV BARRA  */
@@ -110,6 +123,7 @@ header .nav-bar .content .col.login {
 .content .col.login .menu li:last-child{
   margin-right: 0;
 }
+/* NOTE:  elementi con cornice */
 .col.login .menu .butt-login {
   border: 1px solid #fe7759;
   padding: 5px 10px;
@@ -182,57 +196,77 @@ header .title .teaser-box .menu .cta-orang {
  /* riga uno */
 main #widget {
  }
-main #widget .row-one {
+main #widget .row-rubik {
+  padding: 30px 0px; /* NOTE: padding tra row 1 e row 2 */
   text-align: center;
   width: 70%;
   margin: auto;
 }
-main #widget .row-one img {
+main #widget .row-rubik img {
    padding-top: 40px;
    height: 220px;
  }
-main #widget .row-one h2 {
+main #widget .row-rubik h2 {
    padding: 20px;
    font-size: 30px;
    font-weight: bold;
  }
 
+
  /* riga due */
-main #widget .row-two {
-   height: 100px;
+ .frame {
+   background: white;
+   padding: 30px 10px;
+   width: 100%;
+   height: 350px;
+   border: 1px solid lightgrey;
+   border-radius: 10px;
  }
+ /* COLONNA SINISTRA */
 
-main #widget .row-two .book {
+main #widget .row-Illustration .col.book {
+  padding: 50px;
   width: 30%;
-  height: 200px;
-  background: darkmagenta;
-
+  text-align: center;
+}
+main #widget .row-Illustration .col.book img {
+  height: 100px;
+}
+/* NOTE: da rivedere */
+main #widget .row-Illustration .col.book a {
+  margin: auto;
+  display: block;
+  width: 150px;
+  padding: 2px 2px
 
 }
-main #widget .row-two .book-text{
-  width: 70%;
-  height:200px;
-  background-color: green;
-}
 
+/* |||||||||||||||||||||||
+/* COLONNA DESTRA */
+main #widget .row-Illustration .col.testo{
+  padding: 50px;
+  width: 50%;
+}
+.row-Illustration .col.testo .widget-p  {
+  padding: 15px 0;
+}
 /* riga tre */
 
 main #widget .row-three {
-  margin-top: 50px;
-}
+margin-top: 50px;}
 main #widget .row-three .col.marketing {
   background-color: red;
   width: 30%;
   height: 400px; /* NOTE: da cancellare */
 }
 main #widget .row-three .col.sales {
-  background-color: yellow;
+  background-color: blue;
   width: 30%;
   margin: 0 5%;
   height: 400px; /* NOTE: da cancellare */
 }
 main #widget .row-three .col.service {
-  background-color: blue;
+  background-color: red;
   width: 30%;
   height: 400px; /* NOTE: da cancellare */
 
