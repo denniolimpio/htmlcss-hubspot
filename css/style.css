@@ -8,26 +8,29 @@
 /* regole generali */
 body {
   background-color: #afebe4;
+  font-family: 'Montserrat', sans-serif;
+  color: #3b5162;
+
 }
 header {
   line-height: 30px;
   font-size: 16px;
-  color: #3b5162;
   height: 800px;
-  font-family: 'Montserrat', sans-serif;
+  border-bottom: 3px solid black;
+  overflow: hidden;
   background-color: #fff3ee;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 170%;
   background-repeat: no-repeat;
   background-size: 1400px;
-  border-bottom: 3px solid black;
-  overflow: hidden;
+
+
 }
 main {
   margin-top: 80px;
   border-top: 3px solid black;
-  height: 500px;
-  background-color: white;
+  height: 1000px; /* NOTE: da cancellare */
+  background-color: #f4f9fd;
 }
 h1 {
   line-height: 50px;
@@ -168,7 +171,19 @@ header .title .teaser-box .menu li {
 }
 header .title .teaser-box .menu .cta-orang {
   padding: 15px;
-  padding: 15px;
 }
 /* ||FINE HEADER|| */
  /* || MAIN || */
+ #slogan {
+   text-align: center;
+   height: 300px;
+ }
+
+ #slogan .slog img {
+   padding-top: 40px;
+   height: 220px;
+ }
+ #slogan .slog h2 {
+   font-size: 30px;
+   font-weight: bold;
+ }
