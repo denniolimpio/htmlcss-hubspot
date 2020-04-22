@@ -17,7 +17,6 @@ body {
 }
 header {
   line-height: 30px;
-
   height: 800px;
   border-bottom: 3px solid black;
   overflow: hidden;
@@ -35,7 +34,7 @@ main {
   background-color: #f4f9fd;
   height: 2000px;
 }
-section {
+#widget {
   margin-bottom: 50px;}
 
 h1 {
@@ -116,6 +115,7 @@ header .col {
 .widget-p {
   padding: 0px 40px;
   line-height: 24px;
+  font-size: 15px;
 }
 .h3-statics{
   font-weight: 600;
@@ -357,9 +357,10 @@ main #widget .offert .col.service {
 
 /* SEZ 2 generic*/
 main #statics {
-background-color: #11b5ac;
-text-align: center;
-color: white;
+  background-color: #10abb6;
+  padding: 60px 0px; /* NOTE: da verificare */
+  text-align: center;
+  color: white;
 
 }
 /* riga uno text*/
@@ -374,7 +375,7 @@ main #statics .text h2 {
 /* riga due statistiche */
 #statics .content .statics .col {
   height: 230px;
-  padding: 30px 105px;
+  padding: 30px 90px;
   text-align: center;
   width: calc(100%/4);
   margin: auto;
@@ -388,6 +389,49 @@ main #statics .text h2 {
   border-top: 1px solid black;
 }
 
+/* SEZ 3 */
+main #partners {
+  height: 400px;
+  background-color: #ffffff;
+}
+main #partners .brand-logo .col {
+  padding: 30px 90px;
 
+}
+/* colonnraa sinist */
+main #partners .brand-logo .col.number {
+  width: 30%;
+  /* NOTE: da eliminare */
+  height: 200px;
+}
+main #partners .brand-logo .col.number p {
+  line-height: 30px;
+}
+
+
+/* colonna destra */
+
+main #partners .brand-logo .col.brands {
+  width: 70%;
+  /* NOTE: da eliminare */
+  height: 200px;
+}
+
+
+
+.boxlogo .prova {
+  background-color: green;
+
+}
+.boxlogo .prova .col {
+  padding: 0px;
+
+  width: calc(100%/8);
+  max-height: 10px;
+  background-color: yellow;
+}
+.boxlogo .col.atlassian img {
+  height: 10px;
+  padding: 0px;
 
 }
