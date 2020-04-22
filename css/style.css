@@ -72,7 +72,11 @@ header .col {
 
 }
 
-
+.hrinline {
+  margin: 15px 200px;
+  position: absolute;
+  width: 500px;
+}
 .cta-orang{
   border: 1px solid #fe7759;
   border-radius: 4px;
@@ -90,9 +94,9 @@ header .col {
   display: block;
 }
 .learnmore {
-  padding: 15px 27px;
+  width: 130px;
+  padding: 15px 24px;
   margin: 0 20px;
-  line-height: 10;
 }
 /* formattazione testo *//* NOTE: eventualmente da eliminare */
 
@@ -199,9 +203,7 @@ header .nav-menu .head-menu .col.logo img {
 
 }
 .col.list-menu .menu  {
-  text-align: right;
-
-}
+  text-align: right;}
 .col.list-menu .menu li {
   line-height: 38px;
 
@@ -217,20 +219,20 @@ header .nav-menu .head-menu .col.logo img {
 header .teaser{
   margin-top: 50px;
 }
-header .teaser .title .teaser-box {
-  width: 660px;
+header .teaser .teaser-box {
+  margin-top: 50px;
+  width: 650px;}
+
+header .teaser .teaser-box p {
+  padding: 50px 0px;
 }
-header .title .teaser-box .menu {
+header .teaser .teaser-box .cta-orang{
+  padding: 20px 15px;
 }
-header .title .teaser-box .menu li {
-  padding: 25px 0px;
-}
-header .title .teaser-box .menu .cta-orang {
-  padding: 15px;
-}
+
 /* ||FINE HEADER|| */
 
- /* || INIZIO MAIN || */
+ /* ||INIZIO MAIN || */
 
  /* riga uno */
 main #widget {
@@ -270,19 +272,21 @@ main #widget .row-Illustration .col.book {
 }
 main #widget .row-Illustration .col.book img {
   height: 100px;
+  margin-bottom: 40px;
 }
 /* NOTE: da rivedere */
 main #widget .row-Illustration .col.book a {
   margin: auto;
+  width: 130px;
   display: block;
-  width: 150px;
-  padding: 2px 2px
+  padding: 5px 3px
 
 }
 
 /* |||||||||||||||||||||||
 /* COLONNA DESTRA */
 main #widget .row-Illustration .col.testo{
+  position: relative;
   padding: 50px;
   width: 50%;
 }
@@ -305,6 +309,7 @@ main #widget .row-Illustration .col.testo .menuwidget li:first-child{
 main #widget .offert {
   margin-top: 50px;}
 main #widget .offert .col {
+  padding-bottom: 50px;
   text-align: center;
   background-color: white;
   border: 1px solid lightgrey;
