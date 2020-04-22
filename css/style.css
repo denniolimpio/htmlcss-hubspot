@@ -32,7 +32,10 @@ main {
   margin-top: 80px;
   border-top: 3px solid black;
   background-color: #f4f9fd;
-  height: 2000px;
+}
+footer {
+  height: 600px;
+  background-color: #33475b;
 }
 #widget {
   margin-bottom: 50px;}
@@ -92,10 +95,15 @@ header .col {
   font-size: 11px;
   display: block;
 }
-.learnmore {
+#widget .learnmore {
   width: 130px;
   padding: 15px 24px;
   margin: 0 20px;
+}
+.learnmore{
+
+  width: 130px;
+
 }
 /* formattazione testo *//* NOTE: eventualmente da eliminare */
 
@@ -442,16 +450,46 @@ main #partners .woman-row .col p {
   font-size: 15px;
   padding: 35px 0;
 }
-main #partners .woman-row .col a {
-    padding: 15px 20px
+main #partners .woman-row .col .learnmore {
+    padding: 20px 15px
 }
 
 .woman-pic img {
-  padding-left: 400px;
+  display: inline-block;
+  text-align: right;
+  width: 300px;
   height: 350px;
+  margin: 0 350px;
 
 }
 
 .woman-row .freeupgr {
+  padding: 30px 0px;
   margin-left: 0px;
+}
+
+
+
+
+/* INIZIO FOOTER */
+#contatti {
+  color: white;
+
+}
+#contatti a {
+  color: white;
+}
+/* SEZIONE I CONTACT */
+#contatti .col {
+    padding: 20px 70px;
+    width: calc(100%/4);
+    height: 800px;
+}
+#contatti .contact .col .listcontact{
+display: inherit;
+
+}
+.etichetta {
+  color: white;
+  font-weight: 700;
 }
