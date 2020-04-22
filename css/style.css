@@ -133,6 +133,7 @@ header .nav-bar .content .col {
 }
 header .nav-bar .content .menu li {
   line-height: 38px;
+  padding: 0 20px;
 }
 /* COL SINISTRA */
 header .nav-bar .content .col.lingua{
@@ -156,9 +157,7 @@ header .nav-bar .content .col.login {
   display: inline;
 }
 .col.login .menu .butt-login a {
-  color: #fe7759
-
-  ;
+  color: #fe7759;
 }
 
 header .content .col .menu li a:hover {
@@ -234,8 +233,11 @@ header .teaser .teaser-box .cta-orang{
 
  /* ||INIZIO MAIN || */
 
- /* riga uno */
+ /* SEZ 1 riga uno */
+section {
+margin-bottom: 50px;}
 main #widget {
+  margin
  }
 main #widget .row-rubik {
   padding: 30px 0px; /* NOTE: padding tra row 1 e row 2 */
@@ -284,7 +286,7 @@ main #widget .row-Illustration .col.book a {
 }
 
 /* |||||||||||||||||||||||
-/* COLONNA DESTRA */
+/* SEZ 1 COLONNA DESTRA */
 main #widget .row-Illustration .col.testo{
   position: relative;
   padding: 50px;
@@ -305,7 +307,7 @@ main #widget .row-Illustration .col.testo .menuwidget li:first-child{
 }
 
 
-/* riga tre general */
+/* SEZ 1 riga tre general */
 main #widget .offert {
   margin-top: 50px;}
 main #widget .offert .col {
@@ -344,4 +346,10 @@ main #widget .offert .col.sales {
 /* colonna destra */
 main #widget .offert .col.service {
   width: 30%;
+}
+
+/* SEZ 2 riga uno */
+main #statics .text {
+height: 500px;
+background-color: #11b5ac;
 }
