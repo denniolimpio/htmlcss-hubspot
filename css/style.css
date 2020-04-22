@@ -261,8 +261,6 @@ main #widget .row-rubik h2 {
    font-size: 30px;
    font-weight: bold;
  }
-
-
  /* riga due */
  .frame {
    background: white;
@@ -273,7 +271,6 @@ main #widget .row-rubik h2 {
    border-radius: 10px;
  }
  /* COLONNA SINISTRA */
-
 main #widget .row-Illustration .col.book {
   padding: 50px;
   width: 30%;
@@ -292,7 +289,6 @@ main #widget .row-Illustration .col.book a {
 
 }
 
-/* |||||||||||||||||||||||
 /* SEZ 1 COLONNA DESTRA */
 main #widget .row-Illustration .col.testo{
   position: relative;
@@ -305,7 +301,6 @@ main #widget .row-Illustration .col.testo .widget-p  {
 main #widget .row-Illustration .col.testo hr {
   margin-left: 200px;
   margin-bottom: 20px;}
-
 main #widget .row-Illustration .col.testo .menuwidget li {
   padding: 2px 5px;
 }
@@ -329,6 +324,7 @@ main #widget .offert img {
 main #widget .offert .col .hr-center {
   margin: 24px 50px;
   }
+
   /* colonna sinistra */
 main #widget .offert .col.marketing {
   width: 30%;}
@@ -338,7 +334,7 @@ main #widget .offert .menu li  {
     text-align: left;
     display: block;
   }
-  main #widget .offert .menu li:last-child  {
+main #widget .offert .menu li:last-child  {
     margin-bottom: 100px;
   }
 main #widget .offert .menu li:last-child  {
@@ -389,7 +385,9 @@ main #statics .text h2 {
   border-top: 1px solid black;
 }
 
+
 /* SEZ 3 */
+/* Sez3 riga 1 text e brand loghi */
 main #partners {
   background-color: #ffffff;
 }
@@ -407,7 +405,6 @@ main #partners .brand-logo .col.number p {
   line-height: 30px;
 }
 
-
 /* colonna destra */
 main #partners .brand-logo .col.brands {
   margin-top: 50px;
@@ -423,4 +420,38 @@ main #partners .brand-logo .col.brands img {
   width: 118px;
 
 }
-.
+
+/* Sez3 riga 2 */
+main #partners .woman-row .col {
+  width: 50%;
+}
+
+main #partners .woman-row .col.start {
+  width: 40%;
+  padding: 60px 0;
+}
+main #partners .woman-row .col.woman-pic {
+  width: 60%;
+}
+main #partners .woman-row .col h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+main #partners .woman-row .col p {
+  line-height: 24px;
+  font-size: 15px;
+  padding: 35px 0;
+}
+main #partners .woman-row .col a {
+    padding: 15px 20px
+}
+
+.woman-pic img {
+  padding-left: 400px;
+  height: 350px;
+
+}
+
+.woman-row .freeupgr {
+  margin-left: 0px;
+}
