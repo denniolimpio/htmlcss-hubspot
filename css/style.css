@@ -118,7 +118,7 @@ header .col {
   line-height: 24px;
 }
 .h3-statics{
-  font-weight: 400;
+  font-weight: 600;
   font-size: 40px;
   padding: 22px 0;
 }
@@ -360,7 +360,7 @@ main #statics {
 background-color: #11b5ac;
 text-align: center;
 color: white;
-height: 2000px; /* NOTE: da cancellare */
+
 }
 /* riga uno text*/
 main #statics .text {
@@ -373,7 +373,7 @@ main #statics .text h2 {
 }
 /* riga due statistiche */
 #statics .content .statics .col {
-  height: 200px;
+  height: 230px;
   padding: 30px 105px;
   text-align: center;
   width: calc(100%/4);
