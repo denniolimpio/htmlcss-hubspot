@@ -34,12 +34,10 @@ main {
   background-color: #f4f9fd;
 }
 footer {
-  height: 600px;
   background-color: #33475b;
 }
 #widget {
   margin-bottom: 50px;}
-
 h1 {
   line-height: 50px;
   font-size: 50px;
@@ -50,7 +48,6 @@ a {
   line-height: 38px;
   text-decoration: none;
 }
-
 ul li {
   display: inline-block;
   list-style-type: none;
@@ -59,7 +56,6 @@ header .col {
   width: 50%;
 
 }
-
 .col {
   float: left;
   height: 100%;
@@ -73,7 +69,6 @@ header .col {
   padding: 0 10%;
 
 }
-
 .hrinline {
   margin: 15px 200px;
   position: absolute;
@@ -89,8 +84,6 @@ header .col {
 .cta-orang:hover  {
   background-color: rgba(254,122,89,0.3);
 }
-
-
 .freeupgr {
   font-size: 11px;
   display: block;
@@ -101,9 +94,7 @@ header .col {
   margin: 0 20px;
 }
 .learnmore{
-
   width: 130px;
-
 }
 /* formattazione testo *//* NOTE: eventualmente da eliminare */
 
@@ -177,15 +168,12 @@ header .nav-bar .content .col.login {
 .col.login .menu .butt-login a {
   color: #fe7759;
 }
-
 header .content .col .menu li a:hover {
   color: #fe7759;
 }
-
 .col.login .menu .butt-login:hover {
   background-color: rgba(254,122,89,0.1)
 }
-
 .col.login .menu .cta-orang {
   padding: 5px 20px;
   margin: 0 20px;
@@ -193,8 +181,6 @@ header .content .col .menu li a:hover {
 .col.login .menu .cta-orang a {
   color: white;
 }
-
-
 .col.login .menu .lent-icn {
   color:#18aac1;
   padding: 0 20px;
@@ -202,7 +188,6 @@ header .content .col .menu li a:hover {
 .col.login .menu .lent-icn:hover {
   font-size: 20px;
 }
-
 
 /*  INIZIO NAV MENU*/
 header .nav-menu {
@@ -252,8 +237,6 @@ header .teaser .teaser-box .cta-orang{
  /* ||INIZIO MAIN || */
 
  /* SEZ 1 riga uno */
-
-
 main #widget .row-rubik {
   padding: 30px 0px; /* NOTE: padding tra row 1 e row 2 */
   text-align: center;
@@ -343,7 +326,7 @@ main #widget .offert .menu li  {
     display: block;
   }
 main #widget .offert .menu li:last-child  {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
   }
 main #widget .offert .menu li:last-child  {
     margin-bottom: 100px;
@@ -433,7 +416,6 @@ main #partners .brand-logo .col.brands img {
 main #partners .woman-row .col {
   width: 50%;
 }
-
 main #partners .woman-row .col.start {
   width: 40%;
   padding: 60px 0;
@@ -453,16 +435,14 @@ main #partners .woman-row .col p {
 main #partners .woman-row .col .learnmore {
     padding: 20px 15px
 }
-
 .woman-pic img {
   display: inline-block;
   text-align: right;
   width: 300px;
   height: 350px;
-  margin: 0 350px;
+  margin-left: 468px;
 
 }
-
 .woman-row .freeupgr {
   padding: 30px 0px;
   margin-left: 0px;
@@ -472,24 +452,67 @@ main #partners .woman-row .col .learnmore {
 
 
 /* INIZIO FOOTER */
-#contatti {
-  color: white;
 
-}
-#contatti a {
-  color: white;
-}
 /* SEZIONE I CONTACT */
-#contatti .col {
-    padding: 20px 70px;
-    width: calc(100%/4);
-    height: 800px;
+footer #contatti .col {
+    padding: 50px 20px;
+    width: calc(100%/4.5);
 }
-#contatti .contact .col .listcontact{
-display: inherit;
+#contatti .col ul li {
+}
 
-}
-.etichetta {
+#contatti label a {
   color: white;
   font-weight: 700;
+}
+#contatti  li .element {
+  font-weight: 300;
+  color:white
+}
+#contatti  li .cta-white {
+  font-size: 13px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #526574;
+  background-color: lightgrey;
+
+}
+ #contatti .social  {
+   padding: 3px 0;
+   font-size: 17px; }
+
+ #contatti .social li a{
+   color: white;
+ }
+ #contatti .social li {
+   font-size: 20px;
+   padding: 6px 6px;
+ }
+
+
+
+ /* NOTE: sezione 2 lingue */
+#lingue {
+  color: white;
+  text-align: center;
+}
+#lingue .content .menu li{
+  font-size: 25;
+  padding: 30px 25px;
+
+}
+#privacy {
+  height: 300px;
+}
+#privacy .content .col {
+  padding: 30px 0px;
+  width: 50%;
+  color: white;
+}
+#privacy .policy {
+text-align: right;
+
+}
+#privacy .content img{
+background: white;
 }
