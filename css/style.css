@@ -1,4 +1,4 @@
-/* reset */
+/*reset*/
 * {
   padding: 0;
   margin: 0;
@@ -127,7 +127,7 @@ header .col {
 }
 .textlenguage {
   color: white;
-  font-size: 25;
+  font-size: 17px;
   padding: 30px 25px;
 }
 /*  */
@@ -408,6 +408,7 @@ main #partners .brand-logo .col.brands {
 }
 main #partners .brand-logo .col.brands .menu {
   margin-left: 73px;
+  text-align: 
 
 }
 main #partners .brand-logo .col.brands img {
@@ -463,18 +464,17 @@ footer #contatti .col {
     padding: 50px 20px;
     width: calc(100%/4.5);
 }
-#contatti .col ul li {
+footer #contatti .col ul li {
 }
-
-#contatti label a {
+footer #contatti label a {
   color: white;
   font-weight: 700;
 }
-#contatti  li .element {
+footer #contatti  li .element {
   font-weight: 300;
   color:white
 }
-#contatti  li .cta-white {
+footer #contatti  li .cta-white {
   font-size: 13px;
   padding: 10px 10px;
   border-radius: 5px;
@@ -482,14 +482,14 @@ footer #contatti .col {
   background-color: lightgrey;
 
 }
- #contatti .social  {
+footer #contatti .social  {
    padding: 3px 0;
    font-size: 17px; }
 
- #contatti .social li a{
+ footer #contatti .social li a{
    color: white;
  }
- #contatti .social li {
+ footer #contatti .social li {
    font-size: 20px;
    padding: 6px 6px;
  }
@@ -497,29 +497,36 @@ footer #contatti .col {
 
 
  /* NOTE: sezione 2 lingue */
-#lingue {
+footer #lingue {
   text-align: center;
 
 }
-}
-#privacy {
+
+/* SEZIONE 2 CONTACT */
+
+footer #privacy {
   height: 300px;
 }
-#privacy .content .col {
+footer #privacy .content .col {
   padding: 30px 0px;
   width: 50%;
   color: white;
 }
-#privacy .policy {
-text-align: right;
+footer #privacy .policy {
+  text-align: right;
 
 }
 
-#privacy .content img{
-background: white;
-height: 30px;
+/* SEZIONE 3 CONTACT */
+
+footer #privacy .content img{
+  background: white;
+  height: 30px;
 }
-#privacy  a {
+footer #privacy  a {
   color: white;
   padding: 2px 10px;
 }
+
+
+/* FINE FOOTER */
