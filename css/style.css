@@ -43,6 +43,9 @@ h1 {
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
 }
+.li-header{
+  padding: 0 10px;
+}
 a {
   color: #3b5162;
   line-height: 38px;
@@ -100,6 +103,7 @@ header .col {
 
 .check-icn {
   color: #fe7759;
+  padding-right: 10px;
 }
 .widget-h3 {
   font-size: 20px;
@@ -129,6 +133,9 @@ header .col {
   color: white;
   font-size: 17px;
   padding: 30px 25px;
+}
+h3 a {
+  color: white;
 }
 /*  */
 /* || HEADER ||  */
@@ -408,8 +415,6 @@ main #partners .brand-logo .col.brands {
 }
 main #partners .brand-logo .col.brands .menu {
   margin-left: 73px;
-  text-align: 
-
 }
 main #partners .brand-logo .col.brands img {
   margin: 12px;
