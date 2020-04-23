@@ -11,9 +11,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #3b5162;
   font-size: 15px;
-
-
-
 }
 header {
   line-height: 30px;
@@ -57,7 +54,6 @@ ul li {
 }
 header .col {
   width: 50%;
-
 }
 .col {
   float: left;
@@ -70,7 +66,6 @@ header .col {
 }
 .content {
   padding: 0 10%;
-
 }
 .hrinline {
   margin: 15px 200px;
@@ -100,7 +95,6 @@ header .col {
   width: 130px;
 }
 /* formattazione testo *//* NOTE: eventualmente da eliminare */
-
 .check-icn {
   color: #fe7759;
   padding-right: 10px;
@@ -127,7 +121,6 @@ header .col {
 }
 .p-didas {
   font-size: 11px;
-
 }
 .textlenguage {
   color: white;
@@ -137,15 +130,11 @@ header .col {
 h3 a {
   color: white;
 }
-/*  */
 /* || HEADER ||  */
-/* NOTE: DA ALLINEARE */
-/* INIZIO NAV BARRA  */
 header .nav-bar{
   width: 100%;
   height: 100px;
   background-color: #f5f8fa;
-
 }
 header .nav-bar .content .col {
   margin-top: 30px;
@@ -155,21 +144,16 @@ header .nav-bar .content .menu li {
   line-height: 38px;
   padding: 0 20px;
 }
-/* COL SINISTRA */
-header .nav-bar .content .col.lingua{
-}
 .content .col.lingua .menu li:first-child{
   margin-left: 0;
   padding-left: 0px;
 }
-/* COL DESTRA */
 header .nav-bar .content .col.login {
   text-align: right;
 }
 .content .col.login .menu li:last-child{
   margin-right: 0;
 }
-/* NOTE:  elementi con cornice */
 .col.login .menu .butt-login {
   border: 1px solid #fe7759;
   padding: 5px 10px;
@@ -199,7 +183,6 @@ header .content .col .menu li a:hover {
 .col.login .menu .lent-icn:hover {
   font-size: 20px;
 }
-
 /*  INIZIO NAV MENU*/
 header .nav-menu {
   border-top: 1px solid black;
@@ -226,28 +209,19 @@ header .nav-menu .head-menu .col.logo img {
   margin-right: 0px;
   padding-right: 0px;
 }
-
-
-/* INIZIO TEASER */
 header .teaser{
   margin-top: 50px;
 }
 header .teaser .teaser-box {
   margin-top: 50px;
   width: 650px;}
-
 header .teaser .teaser-box p {
   padding: 50px 0px;
 }
 header .teaser .teaser-box .cta-orang{
   padding: 20px 15px;
 }
-
-/* ||FINE HEADER|| */
-
  /* ||INIZIO MAIN || */
-
- /* SEZ 1 riga uno */
 main #widget .row-rubik {
   padding: 30px 0px; /* NOTE: padding tra row 1 e row 2 */
   text-align: center;
@@ -282,7 +256,6 @@ main #widget .row-Illustration .col.book img {
   height: 100px;
   margin-bottom: 40px;
 }
-/* NOTE: da rivedere */
 main #widget .row-Illustration .col.book a {
   margin: auto;
   width: 130px;
@@ -290,8 +263,6 @@ main #widget .row-Illustration .col.book a {
   padding: 5px 3px
 
 }
-
-/* SEZ 1 COLONNA DESTRA */
 main #widget .row-Illustration .col.testo{
   position: relative;
   padding: 50px;
@@ -309,9 +280,6 @@ main #widget .row-Illustration .col.testo .menuwidget li {
 main #widget .row-Illustration .col.testo .menuwidget li:first-child{
   padding-left: 0px;
 }
-
-
-/* SEZ 1 riga tre general */
 main #widget .offert {
   margin-top: 50px;}
 main #widget .offert .col {
@@ -342,27 +310,20 @@ main #widget .offert .menu li:last-child  {
 main #widget .offert .menu li:last-child  {
     margin-bottom: 100px;
   }
-
-/* colonna centrale */
 main #widget .offert .col.sales {
   width: 30%;
   margin: 0 5%;
 }
-/* colonna destra */
 main #widget .offert .col.service {
   width: 30%;
 }
 
-/* SEZ 2 generic*/
 main #statics {
   background-image: linear-gradient(to right, #00a4bd,#00bda5);
-  background-color: #10abb6;
-  padding: 60px 0px; /* NOTE: da verificare */
+  padding: 60px 0px;
   text-align: center;
   color: white;
-
 }
-/* riga uno text*/
 main #statics .text {
   margin-bottom: 80px;
 }
@@ -371,44 +332,32 @@ main #statics .text h2 {
   font-weight: bold;
   font-size: 33px;
 }
-/* riga due statistiche */
 #statics .content .statics .col {
   height: 230px;
   padding: 30px 90px;
   text-align: center;
   width: calc(100%/4);
   margin: auto;
-  border-right:  1px solid white;
-  border-bottom: 1px solid white;
+  border-right: 1px solid white;
 }
 #statics .content .statics .col:nth-child(4n+4) {
   border-right: none;
 }
-#statics .content .statics .col-bottom {
-  border-top: 1px solid black;
+#statics .col.col-wdg-bottom {
+  border-top:  1px solid white;
 }
-
-
-/* SEZ 3 */
-/* Sez3 riga 1 text e brand loghi */
 main #partners {
   background-color: #ffffff;
 }
 main #partners .brand-logo .col {
-
   padding: 30px 90px;
-
 }
-/* colonnraa sinist */
 main #partners .brand-logo .col.number {
   width: 30%;
-  /* NOTE: da eliminare */
 }
 main #partners .brand-logo .col.number p {
   line-height: 30px;
 }
-
-/* colonna destra */
 main #partners .brand-logo .col.brands {
   margin-top: 50px;
   width: 65%;
@@ -420,10 +369,7 @@ main #partners .brand-logo .col.brands img {
   margin: 12px;
   height: 22px;
   width: 118px;
-
 }
-
-/* Sez3 riga 2 */
 main #partners .woman-row .col {
   width: 50%;
 }
@@ -436,8 +382,7 @@ main #partners .woman-row .col.woman-pic {
 }
 main #partners .woman-row .col h2 {
   font-size: 30px;
-  font-weight: 600;
-}
+  font-weight: 600;}
 main #partners .woman-row .col p {
   line-height: 24px;
   font-size: 15px;
@@ -458,13 +403,7 @@ main #partners .woman-row .col .learnmore {
   padding: 30px 0px;
   margin-left: 0px;
 }
-
-
-
-
 /* INIZIO FOOTER */
-
-/* SEZIONE I CONTACT */
 footer #contatti .col {
     padding: 50px 20px;
     width: calc(100%/4.5);
@@ -506,9 +445,7 @@ footer #lingue {
   text-align: center;
 
 }
-
 /* SEZIONE 2 CONTACT */
-
 footer #privacy {
   height: 300px;
 }
@@ -519,11 +456,8 @@ footer #privacy .content .col {
 }
 footer #privacy .policy {
   text-align: right;
-
 }
-
 /* SEZIONE 3 CONTACT */
-
 footer #privacy .content img{
   background: white;
   height: 30px;
@@ -532,6 +466,4 @@ footer #privacy  a {
   color: white;
   padding: 2px 10px;
 }
-
-
 /* FINE FOOTER */
