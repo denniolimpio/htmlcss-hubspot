@@ -125,7 +125,11 @@ header .col {
   font-size: 11px;
 
 }
-
+.textlenguage {
+  color: white;
+  font-size: 25;
+  padding: 30px 25px;
+}
 /*  */
 /* || HEADER ||  */
 /* NOTE: DA ALLINEARE */
@@ -493,13 +497,9 @@ footer #contatti .col {
 
  /* NOTE: sezione 2 lingue */
 #lingue {
-  color: white;
   text-align: center;
-}
-#lingue .content .menu li{
-  font-size: 25;
-  padding: 30px 25px;
 
+}
 }
 #privacy {
   height: 300px;
@@ -513,6 +513,12 @@ footer #contatti .col {
 text-align: right;
 
 }
+
 #privacy .content img{
 background: white;
+height: 30px;
+}
+#privacy  a {
+  color: white;
+  padding: 2px 10px;
 }
