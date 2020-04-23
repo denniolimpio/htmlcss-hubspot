@@ -348,6 +348,7 @@ main #widget .offert .col.service {
 
 /* SEZ 2 generic*/
 main #statics {
+  background-image: linear-gradient(to right, #00a4bd,#00bda5);
   background-color: #10abb6;
   padding: 60px 0px; /* NOTE: da verificare */
   text-align: center;
